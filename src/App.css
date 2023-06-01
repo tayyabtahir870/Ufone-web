@@ -1,38 +1,284 @@
-.App {
-  text-align: center;
+.inputsearch {
+  border: none !important;
+  border-bottom: 2px solid black !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .facebook{
+  color : "#F27D18";
+
+} */
+
+.header1 {
+  background-color: #f27d18;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  padding: 2px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header1text {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.marqee {
+  font-size: 12px;
+  color: #737373;
+  padding-top: 10px;
+}
+.offers {
+  color: #f58220;
+  font-size: 2rem !important;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.title {
+  color: #f58220;
+  font-size: 17px !important;
+}
+.facebook {
+  font-size: 13px;
+  color: #4267b2;
+}
+.rupees {
+  color: #6e6e6e !important;
+}
+
+.text-deco {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #f58220 !important
+  ;
+  color: white !important
+  ;
+}
+
+.popupaoc-button {
+  background-color: #f58220 !important;
+  border: none !important;
+  color: #fff !important;
+  padding: 7px 22px 7px 22px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 18px !important;
+  border-radius: 30px !important;
+  max-width: 120px !important;
+}
+.bgofferclr {
+  background-color: #00000014;
+}
+
+.internet {
+  background-color: #ffffff80;
+}
+
+.hoverclr:hover {
+  color: #f58220;
+}
+
+.links {
+  font-size: 36px;
+  color: #9d9d9d;
+  font-weight: normal;
+}
+
+.footercol {
+  text-decoration: none;
   color: white;
 }
+.footer {
+  background-color: #f58220;
+}
+.footerConH {
+  font-size: 1rem !important;
+  color: #fd7400 !important;
 
-.App-link {
-  color: #61dafb;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerlist {
+  color: #696969;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footerlist:hover {
+  color: #fd7400;
+}
+.login {
+  font-size: 34px;
+  color: #f4821f;
+  font-weight: 600;
+  padding-bottom: 0;
+  font-style: italic;
+  font-size: 28px;
+  padding-bottom: 0;
+}
+
+.loginfeild {
+  width: 100%;
+  height: 41px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #696969;
+  background-color: #ebebeb;
+  background-image: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.access {
+  font-size: 26px;
+  color: #f47821;
+  font-weight: bold;
+}
+.description {
+  color: #737373;
+}
+
+.description-1 {
+  color: #737373;
+  font-size: 2.8rem;
+}
+.sign-in {
+  background-color: #f97506;
+  border: none;
+  border-bottom-right-radius: 30px;
+  width: 10vw;
+  color: white;
+  font-style: italic;
+  height: 5vh;
+}
+
+.forgetpassward {
+  color: #f4821f !important;
+  text-decoration: none;
+}
+
+.onlineheading {
+  background-color: #f4821f;
+  color: white;
+  border-radius: 5px;
+}
+.recharge {
+  font-size: 34px;
+  color: #f47821;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.recharge-para {
+  color: #696969;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.mobile-num {
+  color: #f4821f;
+  font-size: 16px;
+  font-family: "flexow01-regularregular" !important;
+}
+
+.rinput {
+  margin-bottom: 30px;
+  margin-left: -13px;
+  width: 100%;
+  padding: 3px 0;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #737373;
+  background-color: transparent;
+  border-bottom: 1px solid #b1b1b1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-shadow: inset 0 0 0;
+}
+
+.orange_btnSloped {
+  width: 167px;
+  height: 37px;
+  background-image: url("Media/loginbtn.png");
+  color: #fff;
+  font-style: italic;
+  background-repeat: no-repeat;
+  border: 0;
+  font-size: 20px;
+  padding: 4px 70px 5px 10px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: inset 0 0 0;
+  padding: 4px 96px 5px 10px !important;
+  margin-bottom: 5%;
+  outline: 0 !important;
+}
+
+.guidelines {
+  color: #696969;
+  font-size: 1.5rem;
+
+  font-weight: 350;
+}
+.listguide {
+  color: #696969;
+  font-size: small;
+}
+.newsimdelivery {
+  background-image: url("Media/newsimorange.png");
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.newsimdelivery1 {
+  background-image: url("Media/newsimgrey.png");
+
+  background-repeat: no-repeat;
+  height: aut;
+}
+
+.newsimtext {
+  color: #fff;
+  text-align: center;
+  margin-top: 75px;
+  margin-left: -145px;
+  font-weight: 400;
+}
+.newsimtext1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -145px;
+  font-weight: 400;
+}
+.newsimpara {
+  color: white;
+}
+.newsimheading{
+  font-size: 34px;
+  color: #f47821;
+  font-weight: 600;
+
+
+}
+.switchufone{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buysimtop{
+  background-color: #f4821f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.tutorial{
+  font-size: 18px !important;
+    color: #9cb83c !important;
 }
